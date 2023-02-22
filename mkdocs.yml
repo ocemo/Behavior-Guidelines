@@ -1,0 +1,8 @@
+site_name: CSC behavior guidelines
+site_url: https://rulebook.csconfederation.com
+theme: readthedocs
+nav:
+    - Punishment Legend: punishment-legend.md
+    - Behavior Guidelines: behavior-guidelines.md
+    - Detailed Misbehavior Descriptions: detailed-misbehavior-descriptions.md
+    - Notes: notes.md
