@@ -1,6 +1,17 @@
 site_name: CSC behavior guidelines
 site_url: https://rulebook.csconfederation.com
-theme: readthedocs
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+extra_javascript:
+  - javascripts/extra.js
+extra_css:
+  - stylesheets/extra.css
 nav:
     - Punishment Legend: punishment-legend.md
     - Behavior Guidelines: behavior-guidelines.md
