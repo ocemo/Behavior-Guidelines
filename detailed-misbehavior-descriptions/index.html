@@ -1,0 +1,834 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://rulebook.csconfederation.com/detailed-misbehavior-descriptions/">
+      
+      
+        <link rel="prev" href="../behavior-guidelines/">
+      
+      
+        <link rel="next" href="../notes/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>Detailed Misbehavior Descriptions - CSC behavior guidelines</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#detailed-misbehavior-descriptions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CSC behavior guidelines" class="md-header__button md-logo" aria-label="CSC behavior guidelines" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CSC behavior guidelines
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Detailed Misbehavior Descriptions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-hidden="true"  type="radio" name="__palette" id="__palette_2">
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CSC behavior guidelines" class="md-nav__button md-logo" aria-label="CSC behavior guidelines" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    CSC behavior guidelines
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punishment-legend/" class="md-nav__link">
+        Punishment Legend
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../behavior-guidelines/" class="md-nav__link">
+        Behavior Guidelines
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Detailed Misbehavior Descriptions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Detailed Misbehavior Descriptions
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#minor-offenses" class="md-nav__link">
+    Minor Offenses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#normal-offenses" class="md-nav__link">
+    Normal Offenses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#serious-offenses" class="md-nav__link">
+    Serious Offenses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-offenses" class="md-nav__link">
+    Other Offenses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staff-specific-offensesstaff-gm-committee-head" class="md-nav__link">
+    Staff Specific Offenses(Staff, GM, Committee Head)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/" class="md-nav__link">
+        Notes
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#minor-offenses" class="md-nav__link">
+    Minor Offenses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#normal-offenses" class="md-nav__link">
+    Normal Offenses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#serious-offenses" class="md-nav__link">
+    Serious Offenses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-offenses" class="md-nav__link">
+    Other Offenses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staff-specific-offensesstaff-gm-committee-head" class="md-nav__link">
+    Staff Specific Offenses(Staff, GM, Committee Head)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="detailed-misbehavior-descriptions">Detailed Misbehavior Descriptions</h1>
+<h3 id="minor-offenses">Minor Offenses</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Name of Offence</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Excessively spamming text chat with text or reactions</td>
+<td>Any instance of posting the same message, image, or gif either a. multiple times in one channel, b. once in multiple channels, or c. in multiple different CSC discords will be considered spam. This also applies to in-game chats. Reacting to many messages, in one channel or multiple channels, with the same or different reactions, can also lead to a mute.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Spamming voice chat/spam joining voice</td>
+<td>Repeatedly joining and leaving, or rapidly moving between, a voice channel in the CSC discord will warrant a punishment for spam joining. You may also be warned under this rule for any instance of voice changers or loud sounds played in a voice channel.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>General misuse of channels</td>
+<td>Any messages that divert from the intended topic of a channel, such as regular discussion in #ask-a-coach or #introductions.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Baiting other community members</td>
+<td>Creating unnecessary drama, manipulation of others, or being overly judgmental or critical of others, especially when done to generate a reaction from someone. Includes attacks or insults through in-game chat.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Falsely/incorrectly reporting scores</td>
+<td>Intentionally lying in a score report to either misrepresent the correct score or reporting the wrong winner will be warned under this rule.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Pinging roles between 3am-10am EST</td>
+<td>Self explanitory.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Unnecessary pings</td>
+<td>Pinging small roles for no apparent reason. This can also apply to pinging individuals if they complain.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Non-English text in chat</td>
+<td>Self explanitory.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Excessive pinging</td>
+<td>Spam pinging an individual.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Being generally disrespectful, rude or toxic to community members</td>
+<td>This refers to harassment of other players, including, but not limited to: verbal insults, text insults, and repeated, overt sarcastic responses in both text or voice chat. This can include DMs brought to the attention of the moderators. It is primarily up to moderator discretion whether or not to punish for this.</td>
+</tr>
+<tr>
+<td>48</td>
+<td>Suggestive Media</td>
+<td>Posting any images, gifs, text, or videos that can be considered not safe for work (NSFW) but are not explicit or graphic. This is including but not limited to innuendos, suggestive content or sexual references (graphic or implied)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="normal-offenses">Normal Offenses</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Name of Offence</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td>Explicit Conversations</td>
+<td>Conversations referring to sex or any topic that might make a movie rated R. Many of us in CSC are adults. Many of us are not. Nobody is here to hear random rated-R tales. There is near-zero reason for these topics to be discussed.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Pinging a role without approval</td>
+<td>Pinging roles, such as Event Interest, without approval will warrant an immediate mute unless approved by admins or blanket permission has been given to a staff role (ex. Media does not need approval to ping stream interest when announcing a stream).</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Collaborating in Commiting Minor Misbehaviors</td>
+<td>Any confirmed efforts to work together to commit misbehaviors. Strikes in this area are applied to all applicable members involved who have been shown to actively participate in preparing for the infraction(s).</td>
+</tr>
+<tr>
+<td>14</td>
+<td>General conduct detrimental to CSC</td>
+<td>Any conduct that a new user would be turned away by seeing can be punished. This is a blanket rule for moderator discretion.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Asking for specific punishments for others</td>
+<td>Requesting, in public, that someone be muted for breaking a rule. Please use tickets for player reports. At Mod discretion, you may instead receive exactly what you asked for, applied to you, and additional strikes may be incurred.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>NSFW media</td>
+<td>Posting any images, gifs, or videos that are considered not safe for work (NSFW) or other public locations due to nudity, sexual content, gore, extreme violence, or other aspects. Drastically or overtly explicit materials will instantly incur 3 strikes.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Swearing directed at another member</td>
+<td>Self explanitory.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>False accusations of serious offence</td>
+<td>Publicly accusing a member of harassment when no such thing has been done, for example, would warrant a mute under this rule.</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Public accusation of staff abuse</td>
+<td>Publicly accusing a Mod of abuse for muting you, for example, would warrant a mute under this rule. This can also cover baseless accusations made in tickets.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Encouraging drama or rule breaking, or promising to do so</td>
+<td>Any discovered attempts to encourage or bait other members into committing offences, or statements confirming intent to do so. Continuing or reigniting hostile conversations, making false accusations, saying you will intentionally break rules, etc. may also fall under this rule.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Testing, taunting, or baiting mods</td>
+<td>Trying a mods patience, whether it be by pushing limits outside, or within, other rulebreaking, trying to garner a negative reaction from a staff member, or trying to bait mods into levying punishments.</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Posting spam links</td>
+<td>Any posting of links to untrusted/unknown sites or repeated posting of links (i.e. other discord links). If evidence indicates malicious intent, this is instantly elevated to a ban under Rule #41.</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Discussing politics, religion, or other serious real-life topics in bad faith</td>
+<td>Discussions regarding politics, religion, or other controversial or otherwise serious real-life topics in bad faith or an offensive manner. Attacking others in conversations related to these topics will likely receive strikes.</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Harrassment</td>
+<td>Repeated insulting of another member, even after being asked to stop.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="serious-offenses">Serious Offenses</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Name of Offence</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25</td>
+<td>Retaliating Against Staff or Members</td>
+<td>Lashing out against someone as a response to something they have done, whether it be cutting you, punishing you, reporting you, etc.</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Impersonating Members of Staff</td>
+<td>Any attempt to assume the role of another member or staff. This includes staff members, committee roles, or other elevated roles. Impersonation can be done through name changes, profile pictures, steam profiles, or other profiles.</td>
+</tr>
+<tr>
+<td>27</td>
+<td>False accusations of serious offence towards staff</td>
+<td>Any accusation of serious nature that requires a discussion or high level investigation found to be blatantly false will give a punishment for false accusations. This is mainly found in false reports of abuse.</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Continued harassment of community members</td>
+<td>Harassment continued against the same member after a strike under Rule 24 will warrant an immediate strike for this rule in place of a second Rule 24 strike.</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Creating a troll discord account</td>
+<td>Creating a discord account solely to cause trouble in the CSC discord, or any related discord, will result in a ban of the troll account and a strike for the creator.</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Timing misbehaviors to minimize punishments</td>
+<td>Any revealed attempts to time potential misbehaviors in such a way as to minimize punishments, such as counting the days until a strike is removed then immediately getting another one.</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Spoiling recent shows or movies (within 2 weeks of release)</td>
+<td>Defined as intentionally revealing information about recent media (shows, movies, etc. that have come out in the past two weeks) that can spoil the enjoyment of members who are interested in that media, but have not been able to see it yet.</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Collaborating in Committing Normal or Serious Misbehaviors</td>
+<td>Any confirmed efforts to work together to commit misbehaviors. Strikes in this area are applied to all applicable members involved who have been shown to actively participate in preparing for the infraction(s).</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Stream sniping or bug exploiting</td>
+<td>Watching CSC streams, whether it be an opposing player or the official stream while showcased, while in match. Bug exploiting applies to game breaking bugs or exploits and is reviewed by Admins on a case by case basis. Please make a ticket for accusations of bug exploits or stream sniping.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="other-offenses">Other Offenses</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Name of Offence</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>34</td>
+<td>Bypassing, or attempting to bypass, punishments in bad faith</td>
+<td>Any attempts to subvert existing punishments, or to prevent infractions being reported and punished. Includes the use of alternate accounts, or deleting offensive content in an attempt to hide it from mods.</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Non-serious discussion in serious channels</td>
+<td>Any completely off-topic conversation or statements in serious-suggestion/discussion, election channels, or other serious channels.</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Leaving Discord mid-event</td>
+<td>Leaving a voice channel, the CSC discord, or discord server created for an event while participating in that event.</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Slurs, racism, and bigoted speech</td>
+<td>Using highly offensive language, whether directed at members or not.</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Serious (death/assault) threats</td>
+<td>Any threat made that involves serious harm to another member, jokingly or not.</td>
+</tr>
+<tr>
+<td>39</td>
+<td>Leaving Discord mid-season without reason</td>
+<td>These will be reviewed on a case by case basis, and the punishment can extend into the following season(s).</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Pinging large roles without approval</td>
+<td>Pinging @everyone, @League, @Spectator, @Former Player, etc. without approval</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Posting scam links</td>
+<td>Posting malicious links with the intent of stealing IPs, account information, or anything else of ill intent.</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Breaking Discord TOS</td>
+<td>Actions that go against Discord's TOS, found at https://discord.com/terms</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Cheating</td>
+<td>Any use of programs or macros that give an unfair advantage to the user.</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Trolling with ill intent immediately after joining</td>
+<td>Joining the server just to incite drama, protest a punishment for a friend, etc.</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Scamming or attempted scamming</td>
+<td>Self explanitory.</td>
+</tr>
+<tr>
+<td>47</td>
+<td>Messaging automoderated terms</td>
+<td>Messaging a banned word that is automatically deleted by automod. Resending deleted messages will result in a double strike. Any successful attempt to avoid automod with banned words will be treated as a 37.</td>
+</tr>
+<tr>
+<td>-</td>
+<td>---------------</td>
+<td>-----------</td>
+</tr>
+<tr>
+<td>10M1</td>
+<td>Dodging a game</td>
+<td>Intentionally dodging a game after ready check has popped. Multiple instances of accidental dodges will also lead to a strike.</td>
+</tr>
+<tr>
+<td>10M2</td>
+<td>General toxicity</td>
+<td>Intentional rude behavior, including but not limited to insults, disrupting communications, and chat spams.</td>
+</tr>
+<tr>
+<td>10M3</td>
+<td>Leaving/afking a game in progress</td>
+<td>Intentionally leaving a 10man and not returning, or going afk and not playing. This does not include for tech related issues, with intention to return</td>
+</tr>
+<tr>
+<td>10M4</td>
+<td>Griefing, trolling, or ruining the game in other ways</td>
+<td>Intentionally throwing the game, not playing to the objective, or ruining the experience for other players in any way (including blocking spawns, team flashing, and other disruptive behavior in game)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="staff-specific-offensesstaff-gm-committee-head">Staff Specific Offenses(Staff, GM, Committee Head)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Name of Offence</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM1</td>
+<td>Toxic team discord environment</td>
+<td>Hosting an unfriendly environment and not taking control of inappropriate behavior that would warrant strikes in the main CSC discord server.</td>
+</tr>
+<tr>
+<td>GM2</td>
+<td>Abusing player trust</td>
+<td>Taking actions that take advantage of the trust that players place in GMs, purposefully making use of that trust in a way that is against player desires or expectations.</td>
+</tr>
+<tr>
+<td>GM3</td>
+<td>Failure to address player concerns</td>
+<td>Choosing not to take action on player concerns or reports within a franchise.</td>
+</tr>
+<tr>
+<td>GM4</td>
+<td>Misuse of position</td>
+<td>Taking actions that are not in good faith and in line with the GM position they were entrusted with. An example would include drafting a team of only your friends without any intention of being competitive.</td>
+</tr>
+<tr>
+<td>GM5</td>
+<td>Abuse of position</td>
+<td>Taking actions that result in misleading or confusing players intentionally. An example would include telling an opposing player that a match has been rescheduled when it has not.</td>
+</tr>
+<tr>
+<td>GM6</td>
+<td>Extended, unexplained inactivity with no backup plan</td>
+<td>A GM going dark with no explanation, without informing anyone, or having any backup plan in case this were to occur.</td>
+</tr>
+<tr>
+<td>S1</td>
+<td>Misuse of position</td>
+<td>Taking actions that are not in good faith and in line with the position they were entrusted with. An example would be using the Events role to ping players to play in a tournament not affiliated with CSC.</td>
+</tr>
+<tr>
+<td>S2</td>
+<td>Abuse of position</td>
+<td>Taking actions that fall completely out of line of player trust. An example would be taking payment or something similar in exchange of a player being featured more often on Reddit, in media, or having a better position in a tournament.</td>
+</tr>
+<tr>
+<td>S3</td>
+<td>Leaking privileged information</td>
+<td>Leaking priveleged information to anyone that did not previously have access. This can apply to non-staff players if involved.</td>
+</tr>
+<tr>
+<td>CH1</td>
+<td>Misuse of position</td>
+<td>Taking actions that are not in good faith and in line with the position they were entrusted with. An example would include adding people without clear motivation or skills into their committee.</td>
+</tr>
+<tr>
+<td>CH2</td>
+<td>Abuse of position</td>
+<td>Complete neglect of player and committee member trust by adding members who distract from the goals of the committee, adding only friends, or removing members from committees due to personal conflicts.</td>
+</tr>
+<tr>
+<td>CH3</td>
+<td>Committee Neglect</td>
+<td>Failure to maintain or upkeep your committee, extended periods of activity with no explanation or backup plan for the members on standby.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
