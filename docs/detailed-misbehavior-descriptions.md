@@ -34,6 +34,7 @@
 | 22 | Posting spam links | Any posting of links to untrusted/unknown sites or repeated posting of links (i.e. other discord links). If evidence indicates malicious intent, this is instantly elevated to a ban under Rule #41. |
 | 23 | Discussing politics, religion, or other serious real-life topics in bad faith | Discussions regarding politics, religion, or other controversial or otherwise serious real-life topics in bad faith or an offensive manner. Attacking others in conversations related to these topics will likely receive strikes. |
 | 24 | Harrassment | Repeated insulting of another member, even after being asked to stop. |
+| 31 | Spoiling recent shows or movies (within 2 weeks of release) | Defined as intentionally revealing information about recent media (shows, movies, etc. that have come out in the past two weeks) that can spoil the enjoyment of members who are interested in that media, but have not been able to see it yet. |
 
 ### Serious Offenses
 
@@ -45,9 +46,9 @@
 | 28 | Continued harassment of community members | Harassment continued against the same member after a strike under Rule 24 will warrant an immediate strike for this rule in place of a second Rule 24 strike. |
 | 29 | Creating a troll discord account | Creating a discord account solely to cause trouble in the CSC discord, or any related discord, will result in a ban of the troll account and a strike for the creator. |
 | 30 | Timing misbehaviors to minimize punishments | Any revealed attempts to time potential misbehaviors in such a way as to minimize punishments, such as counting the days until a strike is removed then immediately getting another one. |
-| 31 | Spoiling recent shows or movies (within 2 weeks of release) | Defined as intentionally revealing information about recent media (shows, movies, etc. that have come out in the past two weeks) that can spoil the enjoyment of members who are interested in that media, but have not been able to see it yet. |
 | 32 | Collaborating in Committing Normal or Serious Misbehaviors | Any confirmed efforts to work together to commit misbehaviors. Strikes in this area are applied to all applicable members involved who have been shown to actively participate in preparing for the infraction(s). |
-| 33 | Stream sniping or bug exploiting | Watching CSC streams, whether it be an opposing player or the official stream while showcased, while in match. Bug exploiting applies to game breaking bugs or exploits and is reviewed by Admins on a case by case basis. Please make a ticket for accusations of bug exploits or stream sniping. |
+| 37 | Sluts, racism and biogted speech | Use of highly offensive language, including but not limited to slurs, racism, deliberate misgendering, attacks against someones personal identity or other hateful and bigoted speech. |
+| 38 | Serious (death/assault) threats | Any threat made that involves serious harm to another member, jokingly or not. |
 
 ### Other Offenses
 
@@ -56,8 +57,6 @@
 | 34 | Bypassing, or attempting to bypass, punishments in bad faith | Any attempts to subvert existing punishments, or to prevent infractions being reported and punished. Includes the use of alternate accounts, or deleting offensive content in an attempt to hide it from mods. |
 | 35 | Non-serious discussion in serious channels | Any completely off-topic conversation or statements in serious-suggestion/discussion, election channels, or other serious channels. |
 | 36 | Leaving Discord mid-event | Leaving a voice channel, the CSC discord, or discord server created for an event while participating in that event. |
-| 37 | Slurs, racism, and bigoted speech | Using highly offensive language, whether directed at members or not. |
-| 38 | Serious (death/assault) threats | Any threat made that involves serious harm to another member, jokingly or not. |
 | 39 | Leaving Discord mid-season without reason | These will be reviewed on a case by case basis, and the punishment can extend into the following season(s). |
 | 40 | Pinging large roles without approval | Pinging @everyone, @League, @Spectator, @Former Player, etc. without approval |
 | 41 | Posting scam links | Posting malicious links with the intent of stealing IPs, account information, or anything else of ill intent. |
