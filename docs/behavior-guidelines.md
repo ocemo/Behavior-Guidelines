@@ -34,6 +34,7 @@
 | 22 | Posting spam links | Medium Timeout | Extended Timeout | Severe Timeout | Season Timeout | Ban |
 | 23 | Discussing politics, religion, or other serious real-life topics in bad faith | Medium Timeout | Extended Timeout | Severe Timeout | Season Timeout | Ban |
 | 24 | Harassment | Medium Timeout | Extended Timeout | Severe Timeout | Season Timeout | Ban |
+| 31 | Spoiling recent shows or movies (within 2 weeks of release) | Standard Timeout | Long Timeout | Extended Timeout | Severe Timeout | Ban |
 
 ### Serious Offences
 
@@ -45,9 +46,7 @@
 | 28 | Continued harassment of community members | Long Timeout | Ban |
 | 29 | Creating a troll discord account | Extended Timeout | Ban |
 | 30 | Timing misbehaviors to minimize punishments | Extended Timeout | Ban |
-| 31 | Spoiling recent shows or movies (within 2 weeks of release) | Severe Timeout | Ban |
 | 32 | Collaborating in Committing Normal or Serious Misbehaviors | Severe Timeout | Ban |
-| 33 | Stream sniping or bug exploiting | Season Timeout | Ban |
 | 37 | Slurs, racism, and bigoted speech | Severe Timeout or more | Ban |
 | 38 | Serious (death/assault) threats | Severe Timeout or more | Ban |
 
