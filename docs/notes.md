@@ -24,6 +24,7 @@
  - Timeout lengths do not stack, but match suspensions do stack.
  - Anyone who reached Ban status will be placed on Enforced Break while mod committee determines if they actually deserve a ban.
  - Anyone who reaches Ban status and is actively causing problems while on Enforced Break will be banned, then have their situation discussed.
+ - After receiving a ban strike, the player will have 72 hours to request an appeal before being removed from the server.  If no appeal is requested after the 72 hours, the player can not request one until they have served the minimum banned time set up by arbiters.
  - Any misbehavior that covers multiple categories will count as a strike for each one, and the punishments combined as described above.
  - For the purposes of moderating, a season ends on the last event day, and the next season begins the day after.
  - Punishment steps are by tier. You will receive whatever the punishment is for the step you are at, regardless of which rule is broken. This means you can bounce between different punishment durations.
@@ -48,5 +49,5 @@
  - Strike removal is done once every offseason during the week following admin elections. Strikes are removed as follows:
  - Minor Strikes will expire after four months, up to two per four month period.
  - Normal Strikes will expire after six months, up to one per six month period.
- - Serious Strikes will not expire except for Rules 25, 26, and 29 which expire after ten months, up to one per ten month period.
+ - Majority of Serious Strikes do not expire. The following expire after a 10 month period: 25 & 28. The following expire after a 20 month period: 29 & 30. Up to 1 per period.
  - Any expiration periods may be increased if strikes are consistently received for additional instances of breaking the same rule.
